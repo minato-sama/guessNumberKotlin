@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/tv_upper"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/bigger_element"
+        android:hintTextColor="#757575"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/tv_lower"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/small_element"
+        android:hintTextColor="#757575"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:onClick="onStartGameClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_game"
+        />
+
+</LinearLayout>

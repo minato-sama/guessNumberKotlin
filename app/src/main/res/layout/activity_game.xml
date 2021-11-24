@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="bottom"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:id="@+id/tv_id_numb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/result_number"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="26sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/tv_bigger"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:onClick="answerYes"
+            android:text="@string/yes"
+            />
+
+        <Button
+            android:id="@+id/tv_lower"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:onClick="answerNo"
+            android:text="@string/no"
+            />
+
+    </LinearLayout>
+</LinearLayout>

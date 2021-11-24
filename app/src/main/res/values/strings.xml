@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">guess_number</string>
+
+    <string name="small_element">меньшее</string>
+    <string name="bigger_element">большее</string>
+
+    <string name="new_game">играть</string>
+    <string name="yes">да</string>
+    <string name="no">нет</string>
+
+    <string name="resultNumber">выбери </string>
+    <string name="mainlayout_text">введите значение</string>
+
+    <string name="result_number">я угадал ваш номер?: </string>
+</resources>
